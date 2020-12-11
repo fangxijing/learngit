@@ -1,0 +1,25 @@
+生成.git文件
+git init			#本地初始化
+git clone https://......		#网上克隆
+
+git status			#查看工作状态
+git add .			#将目录下所有文件推到暂存区
+git commit -m		#将暂存区所有文件推到数据仓库
+git commit -m "..."		#省略号填写对这次修改的说明
+
+在C:\Users\lenovo 建一个.ssh文件夹，为了产生公钥，不用每次都输入密码
+ssh-keygen		#生成公钥
+ssh-keygen -t rsa		#用rsa的加密算法
+接着在.ssh里面pub结尾的文件，把里面的公钥复制到网站上对应地方
+
+在gitee上创建仓库，就可以clone到本地
+
+git push			#将本地文件push到远程
+
+git branch		#查看分支
+git branch -r		#查看远程分支
+git branch new		#新建分支
+git branch -b new		#新建并切换分支
+git merge new		#合并分支
+
+git reset HEAD
