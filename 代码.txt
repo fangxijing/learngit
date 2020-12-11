@@ -23,3 +23,5 @@ git branch -b new		#新建并切换分支
 git merge new		#合并分支
 
 git reset HEAD
+
+newthing
